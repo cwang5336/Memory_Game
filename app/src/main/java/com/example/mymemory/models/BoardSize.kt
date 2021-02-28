@@ -7,6 +7,10 @@ enum class BoardSize(val numCards: Int){
     MEDIUM(18),
     HARD(24);
 
+    companion object{
+        fun getByValue(value: Int ) = values().first{ it.numCards == value }
+    }
+
     //based on the mode of the game this will determine the number of
     //cullom which will be used as a measurement for width
     fun getWidth(): Int{
