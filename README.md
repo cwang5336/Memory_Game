@@ -16,4 +16,7 @@ is something that has to be worked on by implementing background uploading so th
 the user. However this is beyond my knowledge so I will try and work on this in the near future. 
 
 
+<img src= "https://github.com/cwang5336/Memory_Game/blob/main/memoryDemo.gif" width=200><br>
+
+
 
